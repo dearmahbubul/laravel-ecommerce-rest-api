@@ -25,7 +25,7 @@ return [
     |
     | Next, you may define every authentication guard for your application.
     | Of course, a great default configuration has been defined for you
-    | here which uses session storage and the Eloquent user provider.
+    | here which uses session storage and the Eloquent user provider.d23EZfEdTBducnBeEjvW0Fo11f27Q2Tzb2GEcuiV
     |
     | All authentication drivers have a user provider. This defines how the
     | users are actually retrieved out of your database or other storage
@@ -42,7 +42,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
+            'driver' => 'passport',
             'provider' => 'users',
             'hash' => false,
         ],
